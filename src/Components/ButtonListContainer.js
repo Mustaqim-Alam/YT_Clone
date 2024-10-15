@@ -15,12 +15,11 @@ const buttonLists = [
   "Podcast",
   "Slideshow",
   "kitchen",
-  "Shopping",
 ];
 
 function ButtonListContainer() {
   return (
-    <div className="flex">
+    <div className="flex overflow-x-hidden w-full">
       {buttonLists.map((buttonName) => (
         <Button name={buttonName} key={buttonName +1 } />
       ))}

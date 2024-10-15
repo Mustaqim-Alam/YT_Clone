@@ -4,7 +4,7 @@ import ButtonListContainer from "./ButtonListContainer";
 
 function MainContainer() {
   return (
-    <div>
+    <div >
       <ButtonListContainer />
       <VideoContainer />
     </div>
